@@ -1,12 +1,13 @@
 table {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
 }
 
-th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
 }
 
 tbody tr:nth-of-type(even) {
@@ -14,9 +15,9 @@ tbody tr:nth-of-type(even) {
 }
 
 tbody tr:nth-of-type(odd) {
-    background-color: #ffffff;
+  background-color: #fff;
 }
 
 tbody tr:hover {
-    background-color: #d3d3d3;
+  background-color: #d3d3d3;
 }
